@@ -14,4 +14,4 @@ git add "your file or folder"
 git commit -m "comments"
 git push origin master
 
-See https://help.github.com/articles/create-a-repo for detail
+See https://help.github.com/articles/create-a-repo for detail 
