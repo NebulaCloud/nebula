@@ -17,10 +17,8 @@
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
 
     <!-- Custom styles for this template -->
     <link href="/css/carousel.css" rel="stylesheet">
@@ -79,7 +77,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          <img src="/img/index.jpg"  alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Example headline.</h1>
@@ -89,7 +87,7 @@
           </div>
         </div>
         <div class="item">
-          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+          <img src="/img/menu.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Another example headline.</h1>
@@ -99,7 +97,7 @@
           </div>
         </div>
         <div class="item">
-          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+          <img src="/img/contact.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>One more for good measure.</h1>
