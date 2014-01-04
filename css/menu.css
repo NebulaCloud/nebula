@@ -1,0 +1,13 @@
+/*specific css for menu*/
+.navbar-wrapper {
+	position : relative;	
+}
+
+body {
+	background: gray;
+}
+
+.marketing_pic {
+	height: 340px;
+	width: 340px;
+}
