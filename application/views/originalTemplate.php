@@ -23,7 +23,6 @@
     <!-- Custom styles for this template -->
     <link href="/css/carousel.css" rel="stylesheet">
     <link href="/css/global.css" rel="stylesheet">
-    <link href="/css/animate.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -31,14 +30,14 @@
     <div class="navbar-wrapper">
       <div class="container full_width">
 
-        <div class="navbar navbar-inverse navbar-fixed-top transparancy_dark" role="navigation">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+                <span class="icon-bar">adsf</span>
+                <span class="icon-bar">adsf</span>
+                <span class="icon-bar">asdf</span>
               </button>
               <a class="navbar-brand" href="#">Ryuu</a>
             </div>
@@ -69,7 +68,7 @@
         </div>
 
       </div>
-    </div>^
+    </div>
 
 
     <!-- Carousel
@@ -85,14 +84,33 @@
         <div class="item active">
           <img src="/img/index.jpg"  alt="First slide">
           <div class="container">
-            <div class="carousel-caption headerline">
-              <h1 class="animated bounceInRight de-02 transparancy_dark"  >Welcome to Ryuu Japanese Steakhouse</h1>
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
             </div>
           </div>
         </div>
-
-        
-        
+        <div class="item">
+          <img src="/img/menu.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="/img/contact.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -103,18 +121,15 @@
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-<div class="row">
+
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
           <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>About Us</h2>
-                        <p>
-              	At Ryuu Japanese Steak House, located in the Brandon Town Center Mall, we offer entertainment and dining around a teppanyaki table for the whole family to enjoy!  We also offer a full service bar with an all day happy hour and daily drink specials.  Interested in sushi... choose from our extensive list of sushi rolls, specialty rolls, sashimi and nigiri freshly made to order!   
-              </p>
-
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
@@ -132,19 +147,17 @@
       </div><!-- /.row -->
 
 
-
-
       <!-- START THE FEATURETTES -->
 
       <hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">About Us <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">At Ryuu Japanese Steak House, located in the Brandon Town Center Mall, we offer entertainment and dining around a teppanyaki table for the whole family to enjoy!  We also offer a full service bar with an all day happy hour and daily drink specials.  Interested in sushi... choose from our extensive list of sushi rolls, specialty rolls, sashimi and nigiri freshly made to order!   </p>
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="/img/sample.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -185,7 +198,7 @@
 
     </div><!-- /.container -->
 
-</div>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
