@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Menu extends CI_Controller {
+class test extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -17,7 +17,7 @@ class Menu extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-		public function index($page = 'menu') {
+		public function index($page = 'test') {
 		
 			if ( ! file_exists('application/views/'.$page.'.php'))
 			{

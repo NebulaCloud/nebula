@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class home extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -17,10 +17,21 @@ class Home extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
-	{
-		$this->load->view('home');
-	}
+		public function index($page = 'home') {
+		
+			if ( ! file_exists('application/views/'.$page.'.php'))
+			{
+				// Whoops, we don't have a page for that!
+				show_404();
+			}
+		
+			$data['title'] = ucfirst($page); // Capitalize the first letter
+		
+			$this->load->view('templates/header.php', $data);
+			$this->load->view($page, $data);
+			$this->load->view('templates/footer.php', $data);
+		
+		}
 }
 
 /* End of file welcome.php */
