@@ -89,9 +89,16 @@
         <div class="item active">
           <img src="/img/index.jpg"  alt="First slide">
           <div class="container hidden-xs">
-            <div class="carousel-caption headerline transparancy_dark animated bounceInRight de-02 ">
-              <h1 class=""  >Welcome to Ryuu Japanese Steakhouse</h1>
-            </div>
+	            <div class="carousel-caption headerline transparancy_dark animated bounceInRight de-01 ">
+	              <h1 class=""  >Welcome to Ryuu Japanese Steakhouse</h1>
+	            </div>
+	            
+	            <div class="carousel-caption   animated bounceInRight de-02 ">
+	 				<h1>Example headline.</h1>
+	            	<p>Blah, blah, blah ...
+	            	</p>
+	              	<p><a class="btn btn-lg btn-primary" href="#" role="button">Check out our special today</a></p>            
+				</div>
           </div>
         </div>
 

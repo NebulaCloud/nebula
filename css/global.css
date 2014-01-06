@@ -10,12 +10,16 @@
 	margin-top: 0px;
 }	
 
-.de-02 {
+.de-01 {
 	animation-delay: 1s;
     -webkit-animation-delay: 1s;
     -moz-animation-delay: 1s;
-    	background: transparent;
-	background-color: black;
+}
+
+.de-02 {
+	animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
 }
 
 .headerline{
