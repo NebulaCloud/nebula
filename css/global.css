@@ -36,3 +36,9 @@
 	background: linear-gradient(135deg, rgba(0,0,0,1) 0%,rgba(28,28,28,0.86) 62%,rgba(19,19,19,0.77) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#c4131313',GradientType=1 );
 }
+
+
+/*	Color	*/
+.navbar-inverse .white {
+	color: white;
+}

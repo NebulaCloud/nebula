@@ -24,6 +24,8 @@
     <link href="/css/carousel.css" rel="stylesheet">
     <link href="/css/global.css" rel="stylesheet">
     <link href="/css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/font-awesome-4.0.3/css/font-awesome.min.css">
+
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -62,7 +64,9 @@
               </ul>
               
               <ul class="nav navbar-nav navbar-right">
-            	<p class="navbar-text navbar-right">Follow Us:</p>
+            	<p class="navbar-text navbar-right white">
+            		<span class="glyphicon glyphicon-phone-alt">(123)456-7890</span>
+            	
 	          </ul>
             </div>
           </div>
@@ -84,9 +88,9 @@
       <div class="carousel-inner">
         <div class="item active">
           <img src="/img/index.jpg"  alt="First slide">
-          <div class="container">
-            <div class="carousel-caption headerline">
-              <h1 class="animated bounceInRight de-02 transparancy_dark"  >Welcome to Ryuu Japanese Steakhouse</h1>
+          <div class="container hidden-xs">
+            <div class="carousel-caption headerline transparancy_dark animated bounceInRight de-02 ">
+              <h1 class=""  >Welcome to Ryuu Japanese Steakhouse</h1>
             </div>
           </div>
         </div>
@@ -109,7 +113,7 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+          <img class="img-circle" src="/img/sample_140.jpg" alt="Generic placeholder image">
           <h2>About Us</h2>
                         <p>
               	At Ryuu Japanese Steak House, located in the Brandon Town Center Mall, we offer entertainment and dining around a teppanyaki table for the whole family to enjoy!  We also offer a full service bar with an all day happy hour and daily drink specials.  Interested in sushi... choose from our extensive list of sushi rolls, specialty rolls, sashimi and nigiri freshly made to order!   
@@ -118,14 +122,14 @@
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
+          <img class="img-circle" src="/img/menu_140.jpg" alt="Generic placeholder image">
+          <h2>Menu</h2>
           <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
+          <img class="img-circle" src="/img/location_140.jpg" alt="Generic placeholder image">
+          <h2>Our Location</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -179,8 +183,19 @@
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p class="pull-right">
+						Follow Us: <i class="fa fa-facebook-square fa-2x"></i>
+						<i class="fa fa-twitter-square fa-2x"></i>
+						<i class="fa fa-google-plus-square fa-2x"></i>
+						<i class="fa fa-flickr fa-2x"></i>
+						<br>
+						<a href="#" class="pull-right">Back to top</a></p>
+        <p>
+        	<span class="glyphicon glyphicon-phone-alt">(123)456-7890 </span>
+        	<br>
+        	Ryuu Japanese Steak House &copy; 2014&nbsp; 
+        	</p>       		
+        
       </footer>
 
     </div><!-- /.container -->
