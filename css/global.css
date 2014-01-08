@@ -46,3 +46,11 @@
 .navbar-inverse .white {
 	color: white;
 }
+
+.margin-right-0px{
+	margin-right: 0px !important;
+}
+
+.place-card, .place-card-large{
+	display: none !important;
+}
