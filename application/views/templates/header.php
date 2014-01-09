@@ -42,13 +42,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Ryuu</a>
+              <a class="navbar-brand" href="/index.php/home">Ryuu</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="<?php if($title == 'Home') echo 'active'?>"><a href="/index.php/home">Home</a></li>
+                <li class="<?php if($title == 'Menu') echo 'active'?>"><a href="/index.php/Menu">Menu</a></li>
+                <li class="<?php if($title == 'Contact') echo 'active'?>"><a href="/index.php/contact">Contact</a></li>
+                <li class="<?php if($title == 'Specials') echo 'active'?>"><a href="/index.php/Special">Special</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                   <ul class="dropdown-menu">

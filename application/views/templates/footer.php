@@ -1,5 +1,6 @@
+      <hr class="featurette-divider">
 
-
+    <div class="container">
       <!-- FOOTER -->
       <footer>
         <p class="pull-right">
