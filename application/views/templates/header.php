@@ -47,7 +47,7 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="<?php if($title == 'Home') echo 'active'?>"><a href="/index.php/home">Home</a></li>
-                <li class="<?php if($title == 'Menu') echo 'active'?>"><a href="/index.php/Menu">Menu</a></li>
+                <li class="<?php if($title == 'Menu') echo 'active'?>"><a href="/index.php/Menu">menu</a></li>
                 <li class="<?php if($title == 'Contact') echo 'active'?>"><a href="/index.php/contact">Contact</a></li>
                 <li class="<?php if($title == 'Specials') echo 'active'?>"><a href="/index.php/Special">Special</a></li>
                 <li class="dropdown">
