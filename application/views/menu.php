@@ -42,7 +42,7 @@ Caribbean Roll...................... 12.95
           <p></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img src="/img/MENU_SUSHI&SASHIMI.jpg" class="marketing_pic" alt="Generic placeholder image">
+          <img src="/img/MENU_sushi&sashimi.jpg" class="marketing_pic" alt="Generic placeholder image">
           <h2>Sushi Sashimi</h2>
           
           <p><a class="btn btn-default" href="#" role="button" id="SushiButton">View/Hide Menu &raquo;</a></p>
