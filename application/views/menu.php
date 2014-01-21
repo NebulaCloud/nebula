@@ -19,7 +19,8 @@
           <img src="/img/MENU_apptizer.jpg" class="marketing_pic" alt="Generic placeholder image">
           <h2>Appetizer</h2>
           
-          <p><a class="btn btn-default" href="#" role="button" id='AppButton'>View/Hide Menu &raquo;</a></p>
+          <p>
+          	<button type="button" class="btn btn-default" id='AppButton'>View/Hide Menu &raquo;</button>
           <div id ='AppMenu' >
 			Edamame.............................. 3.00 
 House Salad.......................... 2.50 
@@ -45,7 +46,7 @@ Caribbean Roll...................... 12.95
           <img src="/img/MENU_sushi&sashimi.jpg" class="marketing_pic" alt="Generic placeholder image">
           <h2>Sushi Sashimi</h2>
           
-          <p><a class="btn btn-default" href="#" role="button" id="SushiButton">View/Hide Menu &raquo;</a></p>
+          <p><button type="button" class="btn btn-default" id='SushiButton'>View/Hide Menu &raquo;</button></p>
           <div id = "SushiMenu">
           	Albacore Tuna ..........................................................4.50  
 Bean Curd, Inari .......................................................4.25
@@ -97,7 +98,7 @@ Mix Sashimi (12pcs Sashimi) ............................... 19.95
           <img src="/img/MENU_Lunch_Special.jpg" class="marketing_pic" alt="Generic placeholder image">
           <h2>Lunch Special</h2>
           
-          <p><a class="btn btn-default" href="#" role="button" id="LunchButton">View/Hide Menu &raquo;</a></p>
+          <p><button type="button" class="btn btn-default" id='LunchButton'>View/Hide Menu &raquo;</button></p>
           <div id = "LunchMenu">
 California Roll Lunch........................................................9.95
 2 California rolls
@@ -135,7 +136,7 @@ Sushi Lunch .................................................................. 1
           <img src="/img/MENU_Maki_Roll.jpg" class="marketing_pic" alt="Generic placeholder image">
           <h2>Maki Roll</h2>
           
-          <p><a class="btn btn-default" href="#" role="button" id="MakiButton">View/Hide Menu &raquo;</a></p>
+          <p><button type="button" class="btn btn-default" id='MakiButton'>View/Hide Menu &raquo;</button></p>
           <div id = "MakiRollMenu">
           	Alaska Roll ............................................................... 6.95
 smoke salmon, avocado, crab
@@ -203,7 +204,7 @@ Yellowtail Roll .......................................................... 5.95
           <img src="/img/menu.jpg" class="marketing_pic" alt="Generic placeholder image">
           <h2>Chef Special Roll</h2>
           
-          <p><a class="btn btn-default" href="#" role="button" id="ChefButton">View/Hide Menu &raquo;</a></p>
+          <p><button type="button" class="btn btn-default" id='ChefButton'>View/Hide Menu &raquo;</button></p>
           <div id="ChefMenu">
           	Bentonville Roll ..................................................... 12.95
 eel, avocado, crab, cream cheese, deep fried together
@@ -267,7 +268,7 @@ shrimp tempura, softshell crab, crab, avocado, eel sauce on top
           <img src="/img/MENU_comboSpecial.jpg" class="marketing_pic" alt="Generic placeholder image">
           <h2>Combo Special</h2>
           
-          <p><a class="btn btn-default" href="#" role="button" id="ComboButton">View/Hide Menu &raquo;</a></p>
+          <p><button type="button" class="btn btn-default" id='ComboButton'>View/Hide Menu &raquo;</button></p>
           <div id="ComboMenu">
           spicy hamach, spicy crab, fresh hamachi on top with spicy sauce on top
 Tiger Roll ................................................................ 10.95
@@ -291,7 +292,8 @@ shrimp tempura, softshell crab, crab, avocado, eel sauce on top
           <img src="/img/MENU_kichen_menu.jpg" class="marketing_pic" alt="Generic placeholder image">
           <h2>Kichen Menu</h2>
           
-          <p><a class="btn btn-default" href="#" role="button" id="KitchenButton">View/Hide Menu &raquo;</a></p>
+          <p><button type="button" class="btn btn-default" id='KitchenButton'>View/Hide Menu &raquo;</button></p>
+          
           <div id="KitchenMenu">
           	Chicken Teriyaki Plate .................................................... 8.95
 served w/salad, fried rice and miso soup
@@ -324,7 +326,7 @@ Combo Fried Rice ........................................................... 9.9
            <img src="/img/index.jpg" class="marketing_pic" alt="Generic placeholder image">
           <h2>Party Platter</h2>
           
-          <p><a class="btn btn-default" href="#" role="button" id="PartyButton">View/Hide Menu &raquo;</a></p>
+          <p><button type="button" class="btn btn-default" id='PartyButton'>View/Hide Menu &raquo;</button></p>
           <div id="PartyMenu">
           	Sushi House Special #1 ............................................... 69.95
 sushi 20pcs, california roll  16pcs, tempura roll 16pcs
@@ -353,8 +355,8 @@ spicy tuna 8pcs, rainbow 8pcs, dragon 8pcs, california 24pcs, shrimp tempura 16p
         <div class="col-lg-4">
           <img src="/img/MENU_drink.jpg" class="marketing_pic" alt="Generic placeholder image">
           <h2>Drink and Dessert</h2>
-          
-          <p><a class="btn btn-default" href="#" role="button" id="DrinkButton">View/Hide Menu &raquo;</a></p>
+
+          <p><button type="button" class="btn btn-default" id='DrinkButton'>View/Hide Menu &raquo;</button></p>
           <div id="DrinkMenu">
           	Mochi Ice Cream ..................................................... 3.00
 Mango, Strawberry 
