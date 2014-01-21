@@ -52,10 +52,10 @@
   <div class="container">
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-lg-8 contact-map-height margin-top-50px">
+        <div class="col-lg-8 map-height margin-top-50px">
           <div id="map-canvas"></div>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 contact-map-height margin-top-50px bg-burlywood">
+        <div class="col-lg-4 contact-height margin-top-50px bg-burlywood">
           <img class="img-circle" src="/img/menu_140.jpg" alt="Generic placeholder image">
           <h2>Contact Us</h2>
 		  <p>Call us at 123-456-7890</p>
